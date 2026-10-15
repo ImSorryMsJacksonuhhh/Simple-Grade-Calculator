@@ -1,0 +1,36 @@
+
+#include <stdio.h>
+
+int main() {
+
+    int grade0;
+    int grade1;
+    int grade2;
+    int grade3;
+    int grade4;
+
+    printf("Input your 1st grade:");
+    scanf("%d",&grade0);
+
+    printf("Input your 2nd grade:");
+    scanf("%d",&grade1);
+
+    printf("Input your 3rd grade:");
+      scanf("%d",&grade2);
+
+    printf("Input your 4th grade:");
+       scanf("%d",&grade3);
+
+    printf("Input your 5th grade:");
+         scanf("%d",&grade4);
+
+   int TotalSum = grade0+grade1+grade2+grade3+grade4;
+     int TotalGrade =TotalSum/5;
+    if (TotalGrade<= 100)
+        printf("Your grade is %d",TotalGrade);
+    else
+        printf("Your Grade goes above 100, input scores again");
+        
+    
+    return 0;
+}
